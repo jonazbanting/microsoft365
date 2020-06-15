@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>M365 Swiper</title>
+
+<body topmargin="70"  leftmargin="70" rightmargin="70"></body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 700px; 
+  
+    
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" style="background-color:rgb(255, 255, 255);">
+    <p style = "font-family:Arial, Helvetica, sans-serif,garamond,serif;font-size:15px;font-style:bold;">
+      <font color = "black"> <img src="m365.png.png" alt="m365"style="max-width:50%;" >
+      </p>  <b>シネックスジャパン</b>では、年額ベースと、月額ベースでMicrosoft 365製品をご提供しています。 
+    クラウド ソリューション プロバイダープログラム(CSPプログラム)を通して、 年額払い又は月額払いでMicrosoft 365をご購入いただくことができます。
+  他プログラムとの違い、CSPプログラムのメリット、ディスカウントやプロモーションなどの詳細は、弊社営業担当または、<a href="mailto:microsoftcsp@synnex.co.jp">microsoftcsp@synnex.co.jp</a>にお問い合わせ下さい。</font>
+   
+
+    </p>
+    <p>※MicrosoftのTrialオファー内容の変更により、
+      Office 365 E1、Microsoft 365 Business Basic 6か月無償キャンペーンの適用はお申し込み制へ変更とさせていただきます。
+      理由としてはMSが今ではトライアル用のSKUがあったのに対して、今回のキャンペーンは既存のSKUに対して
+      このキャンペーンを走らせることに変更したからです。<br>
+      <font color="red">また本オファーは、対象テナントについては通常SKUで導入後、6か月間は無償で使っていただけますが</font>
+      <font color="red">7か月目以降は有償に自動的に切り替わります。</font><br/>
+      ライセンス有効化の前に、以下の条件をご確認いただき対象であることを確認のうえ
+      契約番号を記載しメールにて、CLOUDSolvチーム(CLOUDSolv@synnex.co.jp)までお申し込みをお願いします。<br>
+      (※お申し込みがございませんと、トライアル適用が出来ない場合がございます)
+      <br/></p>
+  </div>
+  <div class="column" style="background-color:rgb(255, 255, 255);">
+    <br>  <br>  <br>  <br>  <br>  
+    <h2>＜条件＞</h2>
+    <p>
+        以下ライセンスをこれまで未購入、または過去30日以内にキャンセルしていないテナントが対象です。<br>
+      <ul>
+      <li> Microsoft 365 Apps for business (旧称：Office 365 Business) </li> 
+      <li> Microsoft 365 Business Basic (旧称：Office 365 Business Essentials) </li> 
+      <li> Microsoft 365 Business Standard (旧称：Office 365 Business Premium) </li> 
+      <li> Microsoft 365 Business Premium (旧称：Microsoft 365 Business)</li> 
+      <li> Microsoft 365 Apps for enterprise (旧称：Office 365 ProPlus)</li> 
+      <li> Office 365 E1</li> 
+      <li> Office 365 E3</li> 
+      <li> Office 365 E5</li> 
+      <li> Microsoft 365 E3</li> 
+      <li> Microsoft 365 E5</li> 
+      <li> Office 365 F3</li> 
+      <li> Microsoft 365 F3</li> 
+      <li> Exchange Online Essentials</li> 
+      <li> Exchange Online Plan 1</li> 
+      <li> Exchange Online Plan 2</li> 
+      </p>
+      </ul>
+
+  </div>
+  
+  <style>
+    .mySlides {display:none}
+    .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    .w3-badge {height:13px;width:13px;padding:0}
+    </style>
+    <body>
+    
+    <div class="w3-container">
+      <h2></h2>
+      <p></p>
+    </div>
+    
+    <div class="w3-content w3-display-container" style="max-width:800px">
+      <img class="mySlides" src="m365.png" style="width:100%">
+      <img class="mySlides" src="m3652.png" style="width:100%">
+      <img class="mySlides" src="m3653.png" style="width:100%">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
+    
+    </body>
+    </html> 
